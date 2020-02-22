@@ -117,7 +117,7 @@
 <script>
 import DatePicker from 'vue2-datepicker'
 import 'vue2-datepicker/index.css';
-import cropAvata from './popup-childs/cropAvata.vue'
+import cropAvata from './cropAvata.vue'
 export default {
     data() {
         return {

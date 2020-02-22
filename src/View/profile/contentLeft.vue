@@ -145,7 +145,7 @@
 
 <script>
 import DatePicker from 'vue2-datepicker'
-import popup from '../popup/dialogAvata.vue'
+import popup from '../../components/profile/popup-profile/dialogAvata.vue'
 import item from './item.vue';
 export default {
     data() {
@@ -616,7 +616,7 @@ p.text2 {
     top: -70%;
     left: 24px;
     border: 3px solid #fff;
-    background-image: url('../../assets/avt.jpg')
+    background-image: url('../../assets/image/avt.jpg')
 }
 
 .icon2 div {

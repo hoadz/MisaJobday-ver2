@@ -18,8 +18,8 @@
 </template>
 
 <script>
-import noSave from './noSave.vue'
-import Save from './Save.vue'
+import noSave from './base/noSave.vue'
+import Save from './base/Save.vue'
 export default {
     data() {
         return {

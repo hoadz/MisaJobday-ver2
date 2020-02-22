@@ -74,7 +74,7 @@
 </template>
 
 <script>
-import {coverDate} from '../../MyMixins.js'
+import {coverDate} from '../../../mixins/MyMixins.js'
 export default {
     mixins: [coverDate],
     data() {

@@ -6,18 +6,15 @@
             <transition name="face">
                 <router-view></router-view>
             </transition>
-
         </div>
         <div class="col-4 right">
             <content-right></content-right>
         </div>
     </div>
-
 </div>
 </template>
-
 <script>
-import menuProfile from '../Layout/menu.vue'
+import menuProfile from '../layout/menu.vue'
 import contentRight from './ContentRight.vue'
 export default {
 
@@ -29,8 +26,6 @@ export default {
     components: {
         contentRight,
         menuProfile
-        // contentLeft
-
     }
 }
 </script>

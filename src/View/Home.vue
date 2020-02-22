@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import headerHome from './Layout/header.vue'
-import footerHome from './Layout/footer.vue'
+import headerHome from './layout/header.vue'
+import footerHome from './layout/footer.vue'
 export default {
     components: {
         headerHome,
@@ -25,42 +25,42 @@ export default {
 <style>
 @font-face {
     font-family: Google-san;
-    src: url(/GoogleSans-Bold.ttf) format('woff');
+    src: url(../assets/FontGoogleSan/GoogleSans-Bold.ttf) format('woff');
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: Google-san;
-    src: url(../FontGoogleSan/GoogleSans-BoldItalic.ttf) format('woff');
+    src: url(../assets/FontGoogleSan/GoogleSans-BoldItalic.ttf) format('woff');
     font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: Google-san;
-    src: url(../FontGoogleSan/GoogleSans-Italic.ttf) format('woff');
+    src: url(../assets/FontGoogleSan/GoogleSans-Italic.ttf) format('woff');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: Google-san;
-    src: url(../FontGoogleSan/GoogleSans-Medium.ttf) format('woff');
+    src: url(../assets/FontGoogleSan/GoogleSans-Medium.ttf) format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: Google-san;
-    src: url(../FontGoogleSan/GoogleSans-MediumItalic.ttf) format('woff');
+    src: url(../assets/FontGoogleSan/GoogleSans-MediumItalic.ttf) format('woff');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: Google-san;
-    src: url(../FontGoogleSan/GoogleSans-Regular.ttf) format('woff');
+    src: url(../assets/FontGoogleSan/GoogleSans-Regular.ttf) format('woff');
     font-weight: 200;
     font-style: normal;
 }
