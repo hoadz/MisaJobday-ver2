@@ -55,7 +55,6 @@
                         <div class="form-group mt-3">
                             <label for="" class="text-form1">Ngày sinh <span>*</span></label>
                             <!-- <input type="email" class="form-control text-form2" aria-describedby="emailHelp" placeholder="Ngày sinh của bạn"> -->
-                            <date-picker format="DD-MM-YYYY" ></date-picker>
                             <small id="" class="form-text text-muted"></small>
                         </div>
                         <div class="form-row mt-3">
@@ -115,8 +114,8 @@
 </template>
 
 <script>
-import DatePicker from 'vue2-datepicker'
-import 'vue2-datepicker/index.css';
+
+
 import cropAvata from './cropAvata.vue'
 export default {
     data() {
@@ -209,7 +208,6 @@ export default {
 
     },
     components: {
-        DatePicker,
         cropAvata
     },
 }
@@ -304,7 +302,7 @@ label.text-form1 span {
     cursor: pointer;
     bottom: -45px;
     left: 28px;
-    background-image: url('../../assets/avt.jpg');
+    background-image: url('../../../assets/image/avt.jpg');
 }
 
 .text-update p {

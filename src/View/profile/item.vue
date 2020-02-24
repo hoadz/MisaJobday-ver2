@@ -53,14 +53,14 @@
 </template>
 
 <script>
-import CareerGoals from '../popup/CareerGoals.vue';
-import Education from '../popup/Education.vue';
-import ExpJob from '../popup/ExpJob.vue';
-import Prize from '../popup/Prize.vue';
-import Course from '../popup/Course.vue'
-import Project from '../popup/Project.vue'
-import VolunteerActivities from '../popup/VolunteerActivities.vue'
-import skill from '../popup/skill.vue'
+import CareerGoals from '../../components/profile/popup-profile/CareerGoals.vue';
+import Education from '../../components/profile/popup-profile/Education.vue';
+import ExpJob from '../../components/profile/popup-profile/ExpJob.vue';
+import Prize from '../../components/profile/popup-profile/Prize.vue';
+import Course from '../../components/profile/popup-profile/Course.vue'
+import Project from '../../components/profile/popup-profile/Project.vue'
+import VolunteerActivities from '../../components/profile/popup-profile/VolunteerActivities.vue'
+import skill from '../../components/profile/popup-profile/skill.vue'
 import StarRating from 'vue-star-rating'
 export default {
     data() {

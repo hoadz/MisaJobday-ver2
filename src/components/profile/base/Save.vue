@@ -94,7 +94,7 @@ div#list-job {
 
             div#list-job > .title .notification .icon {
                 margin-right: 11px;
-                background: url(../../assets/icon.svg);
+                background: url(../../../assets/icon/icon.svg);
                 width: 17px;
                 height: 19px;
                 background-position: -580px -34px;
@@ -131,7 +131,7 @@ div#list-job {
     }
 
         #list-job .job .location .icon {
-            background: url(../../assets/icon.svg);
+            background: url(../../../assets/icon/icon.svg);
             width: 14px;
             height: 19px;
             background-position: -293px -59px;
@@ -144,7 +144,7 @@ div#list-job {
     }
 
         #list-job .job .salary .icon {
-            background: url(../../assets/icon.svg);
+            background: url(../../../assets/icon/icon.svg);
             width: 18px;
             height: 18px;
             background-position: -515px -35px;
@@ -171,14 +171,14 @@ div#list-job {
     #list-job .job.selected .info .row-info .note {
         width: 32px;
         height: 32px;
-        background: url(../../assets/icon.svg);
+        background: url(../../../assets/icon/icon.svg);
         background-position: -568px -80px !important;
     }
 
     #list-job .job .info .row-info .note {
         width: 32px;
         height: 32px;
-        background: url(../../assets/icon.svg);
+        background: url(../../../assets/icon/icon.svg);
         background-position: -536px -80px;
     }
 

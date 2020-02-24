@@ -89,7 +89,7 @@ footer .design {
 }
 
 div#bct {
-    background: url(../../assets/icon.svg);
+    background: url(../../assets/icon/icon.svg);
     width: 182px;
     height: 51px;
     background-position: -50px -148px;
@@ -111,7 +111,7 @@ footer hr {
 }
 
 footer .logo {
-    background: url(../../assets/icon.svg);
+    background: url(../../assets/icon/icon.svg);
     width: 141px;
     height: 33px;
     background-position: -256px -80px;

@@ -98,6 +98,6 @@ input.focus {
 }
 
 .iconBackground {
-    background-image: url('../assets/icon.svg');
+    background-image: url('../assets/icon/icon.svg');
 }
 </style>

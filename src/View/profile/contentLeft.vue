@@ -50,7 +50,6 @@
                 <p>Bạn cần hoàn thiện thông tin cá nhân để có thể hiển thị đầy đủ</p>
             </div>
         </div>
-        <date-picker style="display:none" format="DD-MM-YYYY"></date-picker>
         <!-- thong tin ca nhan cua user -->
         <div class="row inforUser" v-if="checkPushInfo">
             <div class="col-4">
@@ -144,7 +143,6 @@
 </template>
 
 <script>
-import DatePicker from 'vue2-datepicker'
 import popup from '../../components/profile/popup-profile/dialogAvata.vue'
 import item from './item.vue';
 export default {
@@ -236,7 +234,6 @@ export default {
         item,
         popup,
         // Education
-        DatePicker,
 
     }
 }

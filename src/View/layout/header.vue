@@ -57,7 +57,7 @@ nav.navbar.navbar-expand-md.navbar-light.col-md-12.col-12 {
         height: 32px;
         background-size: cover;
         border-radius: 50%;
-        background-image: url(../../assets/avt.jpg);
+        background-image: url(../../assets/image/avt.jpg);
         background-repeat: no-repeat;
         margin-top: 4px;
         cursor: pointer;
